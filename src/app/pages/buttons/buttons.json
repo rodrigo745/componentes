@@ -1,0 +1,34 @@
+{
+    "descripcion": "Descubre una variedad de botones para tu sitio web. Explora ejemplos visuales y encuentra la documentación para integrarlos fácilmente en tu código. Personaliza colores y estilos para adaptarlos a tu proyecto. ¡Haz que tus botones destaquen y mejora la experiencia de tus usuarios!",
+    "sub":"Presentamos una cuadrícula de botones diseñada para brindarte una amplia gama de opciones de forma directa. Al hacer clic en cualquier botón, se mostrará la documentación asociada a ese componente.",
+    "categorias": [
+        "Simples",
+        "Compuestos"
+    ],
+    "docuFragmentada": [
+        {
+            "titulo": "",
+            "descripcion": "Cada botón viene con su código correspondiente y una vista previa para que puedas visualizar cómo se verá en tu proyecto. Esta función te permite no solo aprender sobre la implementación de los botones, sino también experimentar con diferentes estilos directamente.",
+            "otrosDatos": "En cada componente tienes la opción de copiar el codigo, esto con el objetivo de que lo puedas implementar en tu proyecto de forma sencilla.",
+            "codigo": "const saludo = '¡Hola, Gracias por utilizar la galería de componentes!';\nconsole.log(saludo);"
+        },
+        {
+            "titulo": "Primer titulo11",
+            "descripcion": "Aqui va la descripcion del boton11",
+            "otrosDatos": "En caso de haber mas documentacion respecto al boton",
+            "codigo": "const rodri = 'Facherito11'"
+        },
+        {
+            "titulo": "Primer titulo22",
+            "descripcion": "Aqui va la descripcion del boton22",
+            "otrosDatos": "En caso de haber mas documentacion respecto al boton",
+            "codigo": "const rodri = 'Facherito22'"
+        },
+        {
+            "titulo": "Primer titulo33",
+            "descripcion": "Aqui va la descripcion del boton33",
+            "otrosDatos": "En caso de haber mas documentacion respecto al boton",
+            "codigo": "const rodri = 'Facherito33'"
+        }
+    ]
+}

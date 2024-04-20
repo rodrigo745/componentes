@@ -1,0 +1,23 @@
+[
+    {
+        "titulo": "Documentación",
+        "descripcion": "Esta seria la descripcion",
+        "otroDato": "En caso de haber mas datos que mostrar",
+        "codigo": "npm install tailwindcss",
+        "lenguaje": "shell"
+    },
+    {
+        "titulo": "Documentación",
+        "descripcion": "Esta seria la descripcion",
+        "otroDato": "En caso de haber mas datos que mostrar",
+        "codigo": "const rodrigo = 'Este es mi nombre22'; \nconsole.log(rodrigo)",
+        "lenguaje": "shell"
+    },
+    {
+        "titulo": "Documentación",
+        "descripcion": "Esta seria la descripcion",
+        "otroDato": "En caso de haber mas datos que mostrar",
+        "codigo": "const rodrigo = 'Este es mi nombre33'; \nconsole.log(rodrigo)",
+        "lenguaje": "javascript"
+    }
+]
