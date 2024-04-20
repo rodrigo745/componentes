@@ -32,6 +32,6 @@ export default function NavBar(){
         </div>
     )
 }
-const contenedorStyle = "contNav flex flex-col justify-between bg-slate-700 overflow-hidden md:min-w-80 w-screen md:w-80 h-24 md:h-screen text-white  p-9 text-lg md:rounded-tr-3xl";
+const contenedorStyle = "contNav flex flex-col justify-between bg-slate-700 overflow-hidden md:min-w-80 w-screen md:w-80 h-20 md:h-screen text-white  p-9 pt-6 text-lg md:rounded-tr-3xl";
 const contenedorStyleDos = "contNav bg-slate-700 w-screen md:w-80 md:min-w-80 h-96 md:h-screen text-white p-9 text-lg  md:rounded-tr-3xl";
 const pStyle = "mt-4";
