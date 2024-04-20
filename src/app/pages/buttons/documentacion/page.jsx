@@ -12,7 +12,7 @@ export default function Documentacion(){
     }
     
     return(
-        <div className='p-10 mt-24 md:mt-0'>
+        <div className='p-10 mt-20 md:mt-0'>
             <h2 className='text-xl font-bold mb-3'>Documentación</h2>
             {
                 buttons.docuFragmentada.map((e, index)=> (

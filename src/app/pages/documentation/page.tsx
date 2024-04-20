@@ -11,7 +11,7 @@ export default function Documentation(){
     }
 
     return(
-        <div className='p-10 xl:px-20 mt-24 md:mt-0 w-full'>
+        <div className='p-10 xl:px-20 mt-20 md:mt-0 w-full'>
             {
                 docu.map((e, index)=> (
                     <div key={index} className='mb-10'>

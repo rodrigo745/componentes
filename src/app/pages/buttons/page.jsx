@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Buttons(){
 
     return(
-        <div className="p-10 xl:px-20 mt-24 md:mt-0">
+        <div className="p-10 xl:px-20 mt-20 md:mt-0">
             <h2 className="text-xl font-bold mb-4">¡Botones!</h2>
             <h5>{buttons.descripcion}</h5> <br />
             <h5>{buttons.sub}</h5>
