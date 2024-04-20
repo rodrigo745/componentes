@@ -132,18 +132,6 @@ const estilosBtn = [
                 "bg-gradient-to-r from-cyan-800 via-cyan-700 to-cyan-800",
                 "bg-gradient-to-r from-green-800 via-green-700 to-green-800"
             ],
-            // "ejemplos": [
-            //     "bg-gradient-to-r from-pink-800 via-red-700 to-pink-800 ",
-            //     "bg-gradient-to-r from-amber-800 via-amber-900 to-amber-800",
-            //     "bg-gradient-to-r from-cyan-800 via-cyan-700 to-cyan-800",
-            //     "bg-gradient-to-r from-green-800 via-green-700 to-green-800"
-            // ],
-            // "colores": [
-            //     "bg-gradient-to-r from-pink-800 via-red-700 to-pink-800 ",
-            //     "bg-gradient-to-r from-amber-800 via-amber-900 to-amber-800",
-            //     "bg-gradient-to-r from-cyan-800 via-cyan-700 to-cyan-800",
-            //     "bg-gradient-to-r from-green-800 via-green-700 to-green-800"
-            // ],
             "spin": "(||)",
             "texto": "Botón"
         }
@@ -155,13 +143,13 @@ const estilosBtn = [
             "ejemplos": [
                 "bg-cyan-800",
                 "bg-pink-800",
-                "bg-amber-800",
+                "bg-white text-black",
                 "bg-slate-800",
             ],
             "colores": [
                 "bg-cyan-800",
                 "bg-pink-800",
-                "bg-amber-800",
+                "bg-white",
                 "bg-slate-800"],
             "texto": "+"
         },
@@ -171,13 +159,13 @@ const estilosBtn = [
             "ejemplos": [
                 "bg-cyan-800",
                 "bg-pink-800",
-                "bg-amber-800",
+                "bg-white text-black",
                 "bg-slate-800",
             ],
             "colores": [
                 "bg-cyan-800",
                 "bg-pink-800",
-                "bg-amber-800",
+                "bg-white",
                 "bg-slate-800"],
             "texto": "==>"
         },

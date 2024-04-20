@@ -1,23 +1,101 @@
 [
     {
         "titulo": "Documentación",
-        "descripcion": "Esta seria la descripcion",
-        "otroDato": "En caso de haber mas datos que mostrar",
-        "codigo": "npm install tailwindcss",
-        "lenguaje": "shell"
+        "descripcion": "Para asegurar la consistencia en el uso de todos los componentes, hemos adoptado Tailwind CSS en nuestro código. Hay múltiples métodos para integrar esta biblioteca en tu proyecto, por ahora tenemos 3 opciones disponibles; a continuación, te mostraremos algunas de estas opciones.",
+        "otroDato": "",
+        "codigo": "false",
+        "lenguaje": "terminal"
     },
     {
-        "titulo": "Documentación",
-        "descripcion": "Esta seria la descripcion",
-        "otroDato": "En caso de haber mas datos que mostrar",
-        "codigo": "const rodrigo = 'Este es mi nombre22'; \nconsole.log(rodrigo)",
-        "lenguaje": "shell"
+        "titulo": "1° Opción - Tailwind desde la terminal",
+        "descripcion": "",
+        "otroDato": "La forma más sencilla y rápida de empezar a utilizar Tailwind CSS desde cero es con la herramienta Tailwind CLI. La CLI también está disponible como ejecutable independiente si desea utilizarla sin instalar Node.js.",
+        "codigo": "npm install -D tailwindcss \nnpx tailwindcss init",
+        "lenguaje": "terminal"
     },
     {
-        "titulo": "Documentación",
-        "descripcion": "Esta seria la descripcion",
-        "otroDato": "En caso de haber mas datos que mostrar",
-        "codigo": "const rodrigo = 'Este es mi nombre33'; \nconsole.log(rodrigo)",
+        "titulo": "",
+        "descripcion": "Agregue las rutas a todos sus archivos de plantilla en su archivo tailwind.config.js.",
+        "otroDato": "",
+        "codigo": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\ncontent: ['./src/**/*.{html,js}'],\ntheme: {\nextend: {},\n},\nplugins: [],\n}",
         "lenguaje": "javascript"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Agregue las directivas @tailwind para cada una de las capas de Tailwind a su archivo CSS principal.",
+        "otroDato": "",
+        "codigo": "@tailwind base;\n@tailwind components;\n@tailwind utilities;",
+        "lenguaje": "css"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Ejecute la herramienta CLI para escanear sus archivos de plantilla en busca de clases y crear su CSS.",
+        "otroDato": "",
+        "codigo": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+        "lenguaje": "terminal"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Ya puede comenzar a utilizar Tailwind en su proyecto.",
+        "otroDato": "",
+        "codigo": "false",
+        "lenguaje": "terminal"
+    },
+    {
+        "titulo": "2° Opción - Tailwind con Next.js",
+        "descripcion": "Esta galería de componentes se ha creado utilizando Next.js en conjunto con otras herramientas. Por tanto, consideramos relevante proporcionar instrucciones sobre cómo utilizar estos componentes con Next.js.",
+        "otroDato": "Comience creando un nuevo proyecto Next.js si aún no tiene uno configurado. El enfoque más común y rapido es utilizar:",
+        "codigo": "npx create-next-app my-project",
+        "lenguaje": "terminal"
+    },
+    {
+        "titulo": "",
+        "descripcion": "La elección entre create-next-app y create-next-la@test dependerá del desarrollador. El primero ofrece una manera sencilla y rápida de comenzar, mientras que el segundo tiende a generar un proyecto con la última versión de Next.js. ",
+        "otroDato": "Después de ejecutar create-next-app, se te presentarán varias opciones de configuración. Elige Tailwind cuando se te pregunte si deseas agregarlo al proyecto. Una vez hecho esto, estará configurado y listo para usar en tus clases.",
+        "codigo": "false",
+        "lenguaje": "asd"
+    },
+    {
+        "titulo": "",
+        "descripcion": " ",
+        "otroDato": "",
+        "codigo": "false",
+        "lenguaje": "asd"
+    },
+    {
+        "titulo": "3° Opción - Tailwind con Next.js (Manual)",
+        "descripcion": "",
+        "otroDato": "Comience creando un nuevo proyecto Next.js si aún no tiene uno configurado. Otro de los enfoques mas usados es este:",
+        "codigo": "npx create-next-app@latest my-project --typescript --eslint\ncd my-project",
+        "lenguaje": "terminal"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Instale tailwindcss y sus dependencias de pares a través de npm y luego ejecute el comando init para generar tailwind.config.js y postcss.config.js.",
+        "otroDato": "",
+        "codigo": "npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p",
+        "lenguaje": "terminal"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Agregue las rutas a todos sus archivos de plantilla en su archivo tailwind.config.js.",
+        "otroDato": "",
+        "codigo": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\ncontent: [\n'./app/**/*.{js,ts,jsx,tsx,mdx}',\n'./pages/**/*.{js,ts,jsx,tsx,mdx}',\ncomponents/**/*.{js,ts,jsx,tsx,mdx}',\n\n// Or if using `src` directory:\n'./src/**/*.{js,ts,jsx,tsx,mdx}',\n],\ntheme: {\nextend: {},\n},\nplugins: [],\n}',\n'lenguaje': 'terminal'",
+        "lenguaje": "javascript"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Agregue las directivas @tailwind para cada una de las capas de Tailwind a su archivo CSS principal.",
+        "otroDato": "",
+        "codigo": "@tailwind base;\n@tailwind components;\n@tailwind utilities;",
+        "lenguaje": "css"
+    },
+    {
+        "titulo": "",
+        "descripcion": "Ya puede ejecutar el proceso de compilación con npm run dev.",
+        "otroDato": "",
+        "codigo": "npm run dev",
+        "lenguaje": "terminal"
     }
 ]
+

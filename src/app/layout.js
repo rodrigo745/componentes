@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/NavBar"
+import Aside from "../components/Aside";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,20 +22,7 @@ export default function RootLayout({ children }) {
           <NavBar/>
           </div>
           {children}
-          {
-            /* hacerle lo mismo que al nav.  */
-          }
-          <div className="min-w-80 border-l-2 my-10 p-10 hidden xl:block">
-            <h2>En esta sección</h2>
-            <p>- Botones</p>
-            <p>- Descripción</p>
-            <p>- Vista de componentes</p>
-            <p>- Boton uno</p>
-            <p>- Boton dos</p>
-            <p>- Boton tres</p>
-            <p>- Boton cuatro</p>
-
-          </div>
+          <Aside/>
         </div>
       </body>
     </html>

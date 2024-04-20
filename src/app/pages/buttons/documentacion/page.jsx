@@ -10,7 +10,9 @@ export default function Documentacion(){
     const handleCopy = (codigo)=>{
         copy(codigo);
     }
+
     
+
     return(
         <div className='p-10 mt-20 md:mt-0'>
             <h2 className='text-xl font-bold mb-3'>Documentación</h2>
@@ -30,6 +32,10 @@ export default function Documentacion(){
                                 customStyle={{fontSize: "0px", padding: "16px", borderRadius: "10px"}}
                                 showLineNumbers
                                 >
+
+
+
+                                    
                                 {e.codigo}
                             </SyntaxHighlighter> 
                         </div>
