@@ -7,7 +7,7 @@ export default function NavBar(){
     const [ mostrar, setMostrar ] = useState(false);
     const [ contMenu, setContMenu ] = useState(contenedorStyle);
 
-    const mostrarMenu = (e)=>{
+    const mostrarMenu = ()=>{
         mostrar ? setContMenu(contenedorStyleDos) : setContMenu(contenedorStyle);
         mostrar ? setMostrar(false) : setMostrar(true);
     }

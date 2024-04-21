@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Documentacion(){
 
-    const handleCopy = (codigo)=>{
+    const handleCopy = (codigo: string)=>{
         copy(codigo);
     }
 
@@ -31,11 +31,7 @@ export default function Documentacion(){
                                 style={vscDarkPlus}
                                 customStyle={{fontSize: "0px", padding: "16px", borderRadius: "10px"}}
                                 showLineNumbers
-                                >
-
-
-
-                                    
+                                >   
                                 {e.codigo}
                             </SyntaxHighlighter> 
                         </div>
